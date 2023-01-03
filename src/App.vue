@@ -4,9 +4,9 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <div>
+    <router-view />
   </div>
-  <HelloWorld msg="Helloe" />
-</template>
+  </template>
 
 <style scoped>
 .logo {
